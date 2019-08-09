@@ -1,26 +1,217 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script type="text/javascript" src="http://livejs.com/live.js"></script>
+        <script type="text/javascript" src="Projects.js"></script>
         <link rel = "styleSheet" type="text/css" href = "projects.css">
         <title>
             CodeXX Projects
         </title>
-        <h1 class = "top-page">
-            CodeXX Projects
-        </h1>
-
-        <!--Nav Bar Code-->
+       <!--Nav Bar Code-->
+        <div height = 100px>
         <ul class = "nav-bar">
-            <li class = nav-button-outter><a class=nav-button href="Top">Top</a></li>
-            <li class = nav-button-outter><a class=nav-button href="Project1">App</a></li>
-            <li class = nav-button-outter><a class=nav-button href="Project2">Game</a></li>
-            <li class = nav-button-outter><a class=nav-button href="Project3">Baby</a></li>
+            <li class = nav-button-outter><a class=nav-button href="#Top">Top</a></li>
+            <li class = nav-button-outter><a class=nav-button href="#Game">Area 51 Storm</a></li>
+            <li class = nav-button-outter><a class=nav-button href="#Esl">ESL Website</a></li>
+            <li class = nav-button-outter><a class=nav-button href="#Baby">Baby Game</a></li>
             <li class = nav-button-outter><a class=nav-button href="Project4">Adventure</a></li>
             <li class = nav-button-outter><a class=nav-button href="Project5">Website</a></li>
             <li class = nav-button-outter><a class=nav-button href="Project6">ESL</a></li>
         </ul>
+        </div>
         <!--Nav Bar Code-->
 
+        <h2 class = "top-page">
+            CodeXX Projects
+        </h2>
+
     </head>
+    <body>
+        <!--intro paragraph-->
+      <p id= "Top">We are a nonprofit organization dedicated to empowering girls through code. Our mission and vision is to see girls from all walks of life come together to shape and define their future. We hope to instill a passion for computer programming and create a positive and inclusive environment for girls to be apart of. We hope by presenting girls with the opportunity to learn and engage in coding, we can work towards a more inclusive and diverse age for women in tech in the future. 
+      </p>
+       <!--intro paragraph-->
+       
+     <!--this is a image with decription-->
+      <div class="desc">
+          Area 51 Storm
+      </div>
+      <div id = Game class="responsive">
+        <ul class = project-holder>
+
+          <li class="project-holder-inner">
+            <div class="gallery">
+              <a target="_blank" onclick="slide(1);">
+                <img class = "Area51" src="game Area 51 Storm/R_1.jpg" width="100%" height="100%">
+                <img class = "Area51" src="game Area 51 Storm/R_2.jpg" width="100%" height="100%">
+                <img class = "Area51" src="game Area 51 Strom/R_3.jpg" width="100%" height="100%">
+                <script>slide(0,"Area51",2);</script>
+            </a>
+            </div>
+          </li>
+
+          <li class = "project-holder-inner">
+              <p class = "projects">
+                  Game Title: Storming Area 51
+                  By: Roshini Rangarajan and Aleaya Everett
+              </p>
+              <p class="projects">
+                  Description 
+                  This program is a game that is based on the popular meme, The Storming of Area 51. This is game is for entertainment and for the players overall frustration. The objective of the game is to avoid the military official and reach the end of the map. However, if the military official ends up catching you, Naruto, then you will end up having to restart the game. There currently three levels available to play. Escape Area 51! 
+              </p>
+              <p class="projects">
+                  How was it made?
+                  This game was made with the Godot software, which is a game engine and open source software released by MIT. The Godot software has its own godot language to program the games, however the syntax is similar to python. Together we worked together and made the game. 
+                  
+                  Github: https://github.com/roshinira123/first_project/blob/master/README.md
+              </p>
+          </li>
+
+        </ul>
+      </div>
+      
+
+      <!--this is a image with decription-->
+      <div id = "Baby" class="desc">
+          Baby Game
+      </div>
+      <div class="responsive">
+        <ul class = project-holder>
+
+            <li class = "project-holder-inner">
+                <p class = "projects">
+                  V - Baby Game
+                  By: Deeksha Kasula, Asheley Wi, Pranitha Rao
+                </p>
+                <p class = "projects">
+                  About the Game
+                  Introducing a game brought to you by a team of three girls, designed for
+                  people of all ages learn how to take care of a virtual baby. This game is great
+                  for children who are becoming older siblings, new parents that want to
+                  practice taking care of a baby, or anyone interested in playing with a baby.
+                  Users are able to choose the name and gender and to make it fun we coded
+                  pictures from the delivery of the baby to feeding and sleeping. We hope that
+                  this game can be informational and bring knowledge to users, especially
+                  through the quick tips included after each level. We hope that users will have a
+                  fun experience feeding, sleeping, and caring for their virtual baby with our
+                  game.
+                </p>
+                <p class = "projects">
+                  Process of Creating the Game:
+                  The V-Baby or Virtual Baby game was originally designed to be an app for
+                  android phones. As the team of creators we are just new beginners at coding
+                  as well as inexperienced in developing apps, the android studio tool proved to
+                  be def
+                </p>
+            </li>
+
+          <li class="project-holder-inner">
+            <div class="gallery">
+              <a target="_blank" href="V Baby Game/Code Screenshot 1.jpg">
+                <img src="V Baby Game/Code Screenshot 1.jpg" alt="Forest" width="600" height="400">
+            </a>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+
+      <!--this is a image with decription-->
+      <div class="desc">
+          LBUSD ESL PROJECT
+      </div>
+      <div class="responsive">
+        <ul class = project-holder>
+
+          <li class="project-holder-inner">
+            <div class="gallery">
+              <a target="_blank" href="ESL Database project/Screenshot (3).png">
+                <img src="ESL Database project/Screenshot (3).png" alt="Forest" width="600" height="400">
+            </a>
+            </div>
+          </li>
+
+          <li class = "project-holder-inner">
+              <p>
+                wfddsj
+              </p>
+          </li>
+
+        </ul>
+      </div>
+
+      <!--this is a image with decription-->
+      <div class="desc">
+          The Raid
+      </div>
+      <div class="responsive">
+        <ul class = project-holder>
+
+            <li class = "project-holder-inner">
+                <p>
+                  wfddsj
+                </p>
+            </li>
+
+          <li class="project-holder-inner">
+            <div class="gallery">
+              <a target="_blank" href="The Raid/Output example 2.png">
+                <img src="The Raid/Output example 2.png" alt="Forest" width="600" height="400">
+            </a>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+
+      <!--this is a image with decription-->
+      <div class="desc">
+          LBUSD ESL PROJECT
+      </div>
+      <div class="responsive">
+        <ul class = project-holder>
+
+          <li class="project-holder-inner">
+            <div class="gallery">
+              <a target="_blank" href="ESL Database project/Screenshot (3).png">
+                <img src="ESL Database project/Screenshot (3).png" alt="Forest" width="600" height="400">
+            </a>
+            </div>
+          </li>
+
+          <li class = "project-holder-inner">
+              <p>
+                wfddsj
+              </p>
+          </li>
+
+        </ul>
+      </div>
+
+      
+      <!--this is a image with decription-->
+      <div class="desc">
+          LBUSD ESL PROJECT
+      </div>
+      <div class="responsive">
+        <ul class = project-holder>
+
+            <li class = "project-holder-inner">
+                <p>
+                  wfddsj
+                </p>
+            </li>
+
+          <li class="project-holder-inner">
+            <div class="gallery">
+              <a target="_blank" href="ESL Database project/Screenshot (3).png">
+                <img src="ESL Database project/Screenshot (3).png" alt="Forest" width="600" height="400">
+            </a>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+      
+    
+    </body>
 </html>

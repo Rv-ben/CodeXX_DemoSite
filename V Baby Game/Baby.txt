@@ -1,0 +1,18 @@
+V - Baby Game
+By: Deeksha Kasula, Asheley Wi, Pranitha Rao
+About the Game
+Introducing a game brought to you by a team of three girls, designed for
+people of all ages learn how to take care of a virtual baby. This game is great
+for children who are becoming older siblings, new parents that want to
+practice taking care of a baby, or anyone interested in playing with a baby.
+Users are able to choose the name and gender and to make it fun we coded
+pictures from the delivery of the baby to feeding and sleeping. We hope that
+this game can be informational and bring knowledge to users, especially
+through the quick tips included after each level. We hope that users will have a
+fun experience feeding, sleeping, and caring for their virtual baby with our
+game.
+Process of Creating the Game:
+The V-Baby or Virtual Baby game was originally designed to be an app for
+android phones. As the team of creators we are just new beginners at coding
+as well as inexperienced in developing apps, the android studio tool proved to
+be dif

@@ -1,19 +1,27 @@
 
 .top-page{
     margin: auto; 
-    padding-left: 40%
+    padding-left: 44%;
+    padding-top:70px;
 }
 head{
     background-color: #e6ccff
 }
 .nav-bar{
     list-style-type: none;
-    margin: 0%;
-    background-color: #f1f1f1
+    padding: 0px;
+    overflow: hidden;
+    margin: 0px;
+    align-self: auto;
+    background-color: #f1f1f1;
+    position: fixed ;
+    width:100%;
+    top: 0;
+    left: 0;
 }
 .nav-button-outter{
-    display: inline-block;
-    width: 13%;
+    width: 14.28%;
+    float: left;
 }
 
 
@@ -23,12 +31,111 @@ head{
     text-align: center;
     text-decoration: none;
     color:black;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .nav-button:hover{
     background-color: #2a3990;
     text-decoration: none;
     color: white
+}
+
+
+/*PHOTO GALLERY*/
+.gallery {
+    border: 1px solid #ccc;
+    width: 100%
+  }
+  
+.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+    padding: 1%
+  }
+  
+.desc {
+
+    background-color: #f1f1f1;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+.responsive {
+    padding: 6px;
+    list-style-type: none;
+    margin: 0%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 100%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/*PHOTO GALLERY*/
+
+/*PARAGRAPH*/
+p{
+    font-family: "Courier", courier, Monospace;
+    border: 4px solid #f1f1f1;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    font-size: 20px;
+    width: 100%;
+  }
+/*PARAGRAPH*/
+
+p.projects{
+  overflow-y: scroll;
+  font-size: 25px;
+  width: 100%;
+  top: 0;
+  padding: 0%
+}
+
+body {
+    background-color:#e6ccff;
+  }
+/*End CSS*/
+
+.project-holder-inner{
+  width: 50%;
+  float: left;
+}
+
+
+.project-holder{
+  list-style-type: none;
+  padding: 0px;
+  overflow: hidden;
+  margin: 0px;
+  align-self: auto;
+  width:100%;
+}
+
+.Area51{
+  
 }
